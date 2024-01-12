@@ -1,2 +1,2 @@
 # DOCKER IMAGES
-Docker images for ZippoNodes
+Docker images for Cafirexos
