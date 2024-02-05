@@ -16,7 +16,7 @@ RUN echo 'deb [arch=arm64] http://dl.google.com/linux/chrome/deb/ stable main' >
     && apt-get install -y chromium --no-install-recommends --allow-downgrades \
            fonts-ipafont-gothic fonts-wqy-zenhei fonts-thai-tlwg fonts-kacst fonts-freefont-ttf \
            ffmpeg iproute2 git sqlite3 python3 tzdata ca-certificates dnsutils build-essential \
-    && npm -g install npm@latest
+    && npm -g install npm@7
 
 USER container
 ENV USER=container HOME=/home/container
